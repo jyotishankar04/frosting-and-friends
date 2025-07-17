@@ -6,12 +6,12 @@ const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    { name: "Home", href: "#" },
-    { name: "About", href: "#about" },
-    { name: "Menu", href: "#menu" },
+    { name: "Home", href: "/" },
+    { name: "About", href: "/about" },
+    { name: "Menu", href: "/menu" },
     { name: "Reservation", href: "#reservation" },
     { name: "Order", href: "#order" },
-    { name: "Contact", href: "#contact" },
+    { name: "Contact", href: "/contact" },
   ];
 
   return (
