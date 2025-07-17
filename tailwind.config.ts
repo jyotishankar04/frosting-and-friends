@@ -52,6 +52,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Custom cake theme colors
+				'warm-cream': 'hsl(var(--warm-cream))',
+				chocolate: 'hsl(var(--chocolate))',
+				strawberry: 'hsl(var(--strawberry))',
+				caramel: 'hsl(var(--caramel))',
+				vanilla: 'hsl(var(--vanilla))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -67,6 +73,16 @@ export default {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			backgroundImage: {
+				'hero-gradient': 'var(--hero-gradient)',
+				'card-gradient': 'var(--card-gradient)',
+				'primary-gradient': 'var(--primary-gradient)',
+			},
+			boxShadow: {
+				'soft': 'var(--shadow-soft)',
+				'warm': 'var(--shadow-warm)',
+				'elegant': 'var(--shadow-elegant)',
 			},
 			keyframes: {
 				'accordion-down': {
